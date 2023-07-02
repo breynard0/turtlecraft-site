@@ -1,0 +1,85 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("https://cdn.discordapp.com/attachments/1089013186117779547/1123001750769643611/outside_spawn.png");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.button {
+  position: fixed;
+  background-color: #11111199;
+  border-width: 0;
+  border-radius: 5px;
+  color: white;
+  height: 40vh;
+  width: 10vw;
+  font-size: 15vmin;
+  top: 40vh;
+}
+
+.button:hover {
+  background-color: #11111190;
+}
+
+.button:active {
+  background-color: #111111aa;
+}
+
+.warning {
+  position: fixed;
+  bottom: 0;
+  font-size: 2vMin;
+  line-height: 4vh;
+  color: red;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.text_bg {
+  position: absolute;
+  top: 5vh;
+  left: 20vw;
+  height: 80vh;
+  background-color: #383e47aa;
+  width: 60vw;
+  text-align: center;
+}
+
+.title {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-style: bolder;
+  font-size: 8vh;
+}
+
+.text {
+  height: 50vh;
+  width: 60vw;
+  overflow: auto;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 4vh;
+  text-align: center;
+}
+
+.back_button {
+  width: auto;
+  height: auto;
+  background-color: #36393daa;
+  color: white;
+  font-size: 4vMin;
+  font-style: bold;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
