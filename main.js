@@ -41,6 +41,10 @@ function fade() {
   }
 }
 
+function dynmap() {
+  open("http://play.turtlecraftsmp.com:4269/");
+}
+
 function discord() {
   open("https://discord.gg/ZwMwCTWz4V");
 }
